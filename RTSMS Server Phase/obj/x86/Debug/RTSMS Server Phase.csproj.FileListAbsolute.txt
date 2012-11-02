@@ -1,0 +1,21 @@
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\obj\x86\Debug\RTSMS_Server_Phase.Form1.resources
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\obj\x86\Debug\RTSMS_Server_Phase.Properties.Resources.resources
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\bin\Debug\RTSMS Server Phase.exe.config
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\bin\Debug\RTSMS Server Phase.exe
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\bin\Debug\RTSMS Server Phase.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\obj\x86\Debug\RTSMS Server Phase.exe
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\obj\x86\Debug\RTSMS Server Phase.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase\RTSMS Server Phase\bin\Debug\Backup_11_11_2010.mdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\bin\Debug\RTSMS Server Phase.exe.config
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\obj\x86\Debug\RTSMS Server Phase.exe
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\obj\x86\Debug\RTSMS Server Phase.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\bin\Debug\RTSMS Server Phase.exe
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\bin\Debug\RTSMS Server Phase.pdb
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\obj\x86\Debug\RTSMS_Server_Phase.Form1.resources
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\obj\x86\Debug\RTSMS_Server_Phase.Properties.Resources.resources
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MuzammilPeer\Documents\Visual Studio 2010\Projects\RTSMS Server Phase-SQL\RTSMS Server Phase\obj\x86\Debug\GenerateResource.write.1.tlog

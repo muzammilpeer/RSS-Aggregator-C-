@@ -1,0 +1,67 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RTSMS_Server_Phase.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Setting" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;            using (SqlConnection sql = new SqlConnection())
+            {
+                sql.ConnectionString = ConfigurationManager.ConnectionStrings["bid_dbConnectionString1"].ConnectionString;
+                sql.Open();
+                SqlCommand sqlcommand = new SqlCommand(listcategory, sql);
+                SqlDataReader reader = sqlcommand.ExecuteReader();
+                catg_id.Items.Clear();
+                while (reader.Read())
+                {
+                    ListItem itm = new ListItem(reader.GetString(1), reader.GetInt32(0).ToString());
+                    catg_id.Items.Add(itm);
+                }
+                reader.Close();
+                sql.Close();
+            }
+&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">            using (SqlConnection sql = new SqlConnection())
+            {
+                sql.ConnectionString = ConfigurationManager.ConnectionStrings["bid_dbConnectionString1"].ConnectionString;
+                sql.Open();
+                SqlCommand sqlcommand = new SqlCommand(listcategory, sql);
+                SqlDataReader reader = sqlcommand.ExecuteReader();
+                catg_id.Items.Clear();
+                while (reader.Read())
+                {
+                    ListItem itm = new ListItem(reader.GetString(1), reader.GetInt32(0).ToString());
+                    catg_id.Items.Add(itm);
+                }
+                reader.Close();
+                sql.Close();
+            }
+</Value>
+    </Setting>
+    <Setting Name="Backup_11_11_2010ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Backup_11_11_2010.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\Backup_11_11_2010.mdb</Value>
+    </Setting>
+    <Setting Name="SQLServerRTSMSDBConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=./;Initial Catalog=rtsmsdb;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=./;Initial Catalog=rtsmsdb;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="RSSReaderConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=./;Initial Catalog=rtsmsdb;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=./;Initial Catalog=rtsmsdb;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
